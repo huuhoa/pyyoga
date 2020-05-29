@@ -3,7 +3,7 @@ A python wrapper for the Yoga layout engine by Facebook (https://facebook.github
 
 ## Dependencies
 
-Cython (tested with 0.25.2)
+Cython (tested with 0.29.19)
 
 ## Installation
 
@@ -16,8 +16,10 @@ $ git submodule update
 
 Run build:
 
-`$ python setup.py build_ext --inplace`
+```
+$ make install
+```
 
 ## Usage
 
-TODO
+View on `tests.py` for details on API call
